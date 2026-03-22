@@ -45,11 +45,12 @@ vitalzk-contracts/
 ### Prerequisites
 
 1.  **Rust & Cargo:** [Install Rust](https://rustup.rs/)
-2.  **Stellar CLI:** \`\`\`bash
+2.  **Stellar CLI:**
+3.  ```bash
     cargo install --locked stellar-cli --features opt
     ```
     ```
-3.  **WASM Target:**
+4.  **WASM Target:**
     ```bash
     rustup target add wasm32-unknown-unknown
     ```
